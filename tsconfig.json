@@ -22,6 +22,6 @@
     "noImplicitAny": false,
     "jsxImportSource": "@emotion/react"
   },
-  "include": ["src"],
+  "include": ["src", "index.d.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
