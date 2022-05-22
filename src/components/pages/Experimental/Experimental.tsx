@@ -2,7 +2,7 @@ import { Box, Heading, Image, Text, Input, SimpleGrid } from '@chakra-ui/react';
 import React, { useState, useEffect, useRef } from 'react';
 import Typewriter from 'typewriter-effect';
 import { Select, OptionBase, GroupBase } from 'chakra-react-select';
-import './experimental.css';
+import './Experimental.css';
 import planet from './Planet-4.png';
 
 type Props = {};

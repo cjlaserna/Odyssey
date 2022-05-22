@@ -5,9 +5,9 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
 import './Home.css';
-import news from '../../../assets/images/planet-1.png';
+import news from '../../../assets/images/Planet-1.png';
 import rocket from '../../../assets/images/rocket.png';
-import rover from '../../../assets/images/rover.png';
+import rover from '../../../assets/images/Rover.png';
 
 type Props = {};
 
