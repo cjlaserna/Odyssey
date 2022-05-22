@@ -13,6 +13,7 @@ const links = [
   { link_name: 'news', url: '/news' },
   { link_name: 'astronauts', url: '/astronauts' },
   { link_name: 'experimental', url: '/experimental' },
+  { link_name: 'birthday', url: '/birthday' },
 ];
 
 const NavLink = ({ children, url, mobile }: { children: string; url: string; mobile: boolean }) => {

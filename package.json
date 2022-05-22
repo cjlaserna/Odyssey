@@ -19,8 +19,10 @@
     "chakra-react-select": "^4.0.0",
     "emotion-theming": "^11.0.0",
     "framer-motion": "^6.3.3",
+    "get-image-urls": "^1.0.5",
     "html-webpack-plugin": "^5.5.0",
     "react": "^18.1.0",
+    "react-datepicker": "^4.8.0",
     "react-dom": "^18.1.0",
     "react-horizontal-infinite-scroll": "^1.0.2",
     "react-horizontal-scrolling-menu": "^2.8.2",
@@ -34,7 +36,8 @@
     "ts-loader": "^9.3.0",
     "tsparticles": "^2.0.6",
     "typewriter-effect": "^2.18.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "website-scraper": "^5.0.0"
   },
   "scripts": {
     "start": "webpack-dev-server",
