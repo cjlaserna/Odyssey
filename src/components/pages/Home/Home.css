@@ -1,0 +1,49 @@
+.grid > div {
+  position: relative;
+
+  background: linear-gradient(180deg, #1c125e 0%, rgba(28, 18, 94, 0) 100%);
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: unset !important;
+  border-radius: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.grid div img {
+  transition: all 1s ease;
+  opacity: 0.25;
+  position: absolute;
+  z-index: 0;
+}
+
+.grid div h3 {
+  transition: all 1s ease;
+  opacity: 1;
+  color: white;
+}
+
+.grid div:hover img {
+  opacity: 0.75;
+}
+
+.grid div:not(.text):hover {
+  background: linear-gradient(180deg, #1c125e 0%, #0e0631 100%);
+  cursor: pointer;
+}
+
+.text {
+  transition: all 1s ease;
+  opacity: 1;
+  color: white;
+  z-index: 1;
+}
+
+.text p {
+  transition: all 1s ease;
+  font-weight: 600;
+  margin-bottom: 25px;
+}

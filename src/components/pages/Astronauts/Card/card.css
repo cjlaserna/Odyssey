@@ -1,0 +1,13 @@
+.card {
+  aspect-ratio: 1 / 1 !important;
+  overflow: scroll;
+
+  cursor: pointer;
+}
+
+.card h1,
+.card h2,
+.card h3,
+.card h4 {
+  font-size: 1.5rem;
+}

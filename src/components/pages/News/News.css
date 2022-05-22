@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.link-box {
+  background: linear-gradient(180deg, #1c125e 0%, rgba(28, 18, 94, 0) 100%);
+  aspect-ratio: 8 / 6;
+  border: none;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.link-box .heading {
+  font-size: 1.2rem;
+  font-family: 'Righteous', cursive !important;
+}
+
+.link-box .desc {
+  overflow: hidden;
+  word-break: normal;
+  hyphens: auto;
+
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  font-size: 18px;
+}
+
+.link-box:hover {
+  background: linear-gradient(180deg, #1c125e 0%, #0e0631 100%);
+  cursor: pointer;
+}
