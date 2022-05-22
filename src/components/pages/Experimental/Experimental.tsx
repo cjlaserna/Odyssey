@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Typewriter from 'typewriter-effect';
 import { Select, OptionBase, GroupBase } from 'chakra-react-select';
 import './experimental.css';
-import planet from '../../../assets/images/Planet-4.png';
+import planet from './Planet-4.png';
 
 type Props = {};
 

@@ -5,9 +5,9 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
 import './Home.css';
-const news = require('../../../assets/images/planet-1.png');
-const rocket = require('../../../assets/images/rocket.png');
-const rover = require('../../../assets/images/rover.png');
+const news = require('./planet-1.png');
+const rocket = require('./rocket.png');
+const rover = require('./rover.png');
 
 type Props = {};
 
