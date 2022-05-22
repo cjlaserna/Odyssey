@@ -5,9 +5,9 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
 import './Home.css';
-const news = require('./planet-1.png');
-const rocket = require('./rocket.png');
-const rover = require('./rover.png');
+import news from '../../../assets/images/planet-1.png';
+import rocket from '../../../assets/images/rocket.png';
+import rover from '../../../assets/images/rover.png';
 
 type Props = {};
 
@@ -17,6 +17,8 @@ const Home = (props: Props) => {
   };
   const particleParams = require('../../../assets/particlesjs-config.json');
   const history = useNavigate();
+
+  console.log(news);
   return (
     <Box>
       <Container zIndex={'-99'} position="absolute">

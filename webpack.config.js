@@ -31,12 +31,10 @@ module.exports = {
 			{
 				test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
 				type: 'asset/resource',
-				use: ['file-loader'],
 			},
 			{
 				test: /\.(woff|woff2|ttf|eot)$/,
 				type: 'asset/resource',
-				use: ['file-loader'],
 			},
 		],
 	},
